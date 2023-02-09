@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="zamawianie/zamawianie.css">
+    
+</head>
+<body>
+  <form id="order-form">
+    <h2>Usługi Firmowe</h2>
+    <label for="service">Wybierz usługę:</label>
+    <select id="service" name="service">
+      <option value="Malowanie">Malowanie(cena za 40m2)</option>
+      <option value="Szpachlowanie">Szpachlowanie</option>
+      <option value="Glazura">Glazura</option>
+    </select>
+    <br>
+    <label for="quantity">Ilość:</label>
+    <input type="number" id="quantity" name="Ilość" min="1" value="1">
+    <br>
+    <button type="submit">Dodaj do koszyka</button>
+  </form>
+  <h2>Koszyk</h2>
+  <table id="cart">
+    <tr>
+      <th>Usługa</th>
+      <th>Ilość</th>
+      <th>Cena</th>
+      <th>Kwota</th>
+      <th>Action</th>
+    </tr>
+  </table>
+    <script type="text/javascript" src="zamawianie/zamawianie.js">
+    </script> 
+
+<button class="mybutton" onclick="location.href='stronaglowna.html';"> Wróć do strony głównej
+  <svg viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" fill-rule="evenodd"></path>
+  </svg>
+</button>
+</body>
+</html>

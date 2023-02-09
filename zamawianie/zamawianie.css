@@ -1,0 +1,134 @@
+html{
+  height: 100%;
+}
+body {
+  background-image: url('tlo_główna.png');
+  background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center center;
+	height: 100%;
+	width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#order-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #cccccc;
+}
+
+#order-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#order-form label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#service {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+#quantity {
+  width: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+#cart {
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #cccccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#cart h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#cart th {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#cart td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#cart .kwota {
+  text-align: right;
+}
+
+#cart .action {
+  text-align: center;
+}
+
+#cart .action button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mybutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    background: #08f;
+    color: #fff;
+    
+      position: absolute;
+      left: 0;
+      bottom: 0;
+  
+  }
+  
+  svg {
+    margin: 0 0 0 10px;
+  }
+  
+  .mybutton:hover svg {
+    margin: 0 0 0 25px;
+    transition: 0.3s;
+  }
+  
+  .mybutton:not(:hover) svg {
+    transition: 0.3s;
+  }
+  
+  .mybutton:active {
+    transform: scale(0.9, 0.9);
+    transition: 200ms;
+  }
+  
+  .mybutton:not(:active) {
+    transition: 200ms;
+  }

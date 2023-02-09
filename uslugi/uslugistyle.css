@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	
+
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    background-image: url('tlo_główna.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.logo img {
+    margin-left: 2.3em;
+    max-width: 100%;
+    height: auto !important;
+    width: 90px;
+
+ }
+
+ .big-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('tlo_główna.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 0 1rem;
+    -webkit-box-shadow: 0px 32px 48px 0px rgba(86, 86, 89, 0.59);
+-moz-box-shadow: 0px 32px 48px 0px rgba(86, 86, 89, 0.59);
+box-shadow: 0px 32px 48px 0px rgba(152, 152, 156, 0.59);
+    font-family: poppins;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+    
+    
+   
+}
+.nav ul li {
+    margin: 0 10px;
+    padding: 0 10px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all ease .4s;
+}
+
+.nav ul li a:hover {
+    color:#f0ac45;
+}
+
+/* button zielony  */
+
+.button {
+    align-items: center;
+    background-color: #017e07;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .button:hover,
+  .button:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+  }
+  
+  .button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+
+
+
+.uslugi{
+    background-color:whitesmoke;
+    width: 40vw;
+    height: 65vh;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+    opacity: 1;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-top: 30px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.uslugi h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 1px 1px grey;
+    padding: 20px;
+
+}
+.tyt{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.uslugi p{
+    text-align: center;
+    
+}
+
+
+.stopka2 {
+	min-height: 15%;
+	position: absolute;
+	margin-bottom: -20;
+	width: 100%;
+	background-color: #30211c;
+	display: flex;
+	align-items: center;
+	text-align: center;
+    padding: 0 auto;;
+    margin-top: 30px;
+}
+.stopka2-text {
+	display: inline-flexbox;
+	align-items: center;
+    margin: 30px auto;
+}
+.stopka2 a {
+	color: #f0ac45;
+}
+
+.stopka2 p{
+	color:#f0ac45;
+}
+.stopka2-autorzy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+ 
+}
